@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="901d81fd-43e9-40c8-9bfc-e4058e095b51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fanuc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fanucwyl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fanucwyll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_analy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/chat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/gsm_03_38.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/hexbuffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/modem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/modem.py.org" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pymodem/sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/fanuc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/hwblock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/icon_l_html_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/tab-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/ti-logo-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/ti-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/ticom3-tab-left.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/ticom3-tab-right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/com.TI.numericStepper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/com.TI.tokenPoller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.rwdImageMaps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.rwdImageMaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/page-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about_wps9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cpu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/demos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/demos_wps12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/demos_wps7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/disk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/errors/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/errors/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_wps5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ioctl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/iofeedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/iofeedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/network.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/overview_wps6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portal_wps11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/process.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ram.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/setup_wps13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/setup_wps8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sys.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/v2xconfig.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29sdPFvu1NDDD2ZHCygCYjX2VnW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/wyl/EcuWebNew",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.fanuc">
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EcuWebNew/templates/main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="fanuc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EcuWebNew" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fanuc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="EcuWebNew" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testeel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EcuWebNew" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testeel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fanuc" />
+        <item itemvalue="Python.testeel" />
+        <item itemvalue="JavaScript Debug.main.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="901d81fd-43e9-40c8-9bfc-e4058e095b51" name="Changes" comment="" />
+      <created>1653905700984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653905700984</updated>
+      <workItem from="1658296880703" duration="2896000" />
+      <workItem from="1658306151216" duration="3251000" />
+      <workItem from="1658367124269" duration="640000" />
+      <workItem from="1658420496443" duration="2799000" />
+      <workItem from="1658452710189" duration="3756000" />
+      <workItem from="1658460782941" duration="428000" />
+      <workItem from="1659005978087" duration="6256000" />
+      <workItem from="1660715580085" duration="163000" />
+      <workItem from="1660716340592" duration="2690000" />
+      <workItem from="1663662109792" duration="423000" />
+      <workItem from="1663662537868" duration="7389000" />
+      <workItem from="1664167648886" duration="15000" />
+      <workItem from="1664167872933" duration="255000" />
+      <workItem from="1664170709627" duration="2491000" />
+      <workItem from="1665736511893" duration="2768000" />
+      <workItem from="1665740074644" duration="299000" />
+      <workItem from="1665740444056" duration="593000" />
+      <workItem from="1665741113390" duration="159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EcuWebNew$fanuc.coverage" NAME="fanuc Coverage Results" MODIFIED="1665741220436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EcuWebNew$someperson.coverage" NAME="someperson Coverage Results" MODIFIED="1663666712951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

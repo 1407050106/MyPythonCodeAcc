@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import form_field %}
+
+{% block main_list %}
+<div class="tabs">
+    <ul>
+	      <li class="" id="welcome"><a href="{{ url_for('network') }}">联网信息</a></li>
+	      <li class="active" id="overview"><a href="{{ url_for('ioctl') }}">网络配置(4G/LAN/wifi) </a></li>
+        <li class="" id="about"><a href="{{ url_for('cpu') }}">SIM卡信息 </a></li>
+        <li class="" id="setup"><a href="{{ url_for('disk') }}">CNC信息</a></li>
+        <li class="" id="portal"><a href="{{ url_for('ram') }}">DTU信息</a></li>
+        <li class="" id="demos"><a href="{{ url_for('system') }}">DTU信息</a></li>
+        <li class="" id="v2xconfig"><a href="{{ url_for('v2xconfig') }}">DTU参数设置</a></li>
+        <li class="" id="index"><a href="{{ url_for('index') }}">常用设置</a></li>
+    </ul>
+</div>
+{% endblock %}
+
+{% block content %}
+<ul style="margin 10px 50px">
+
+
+        <h2>WIFI 信息设置</h2>
+        <form method="post">
+            {{ wifiform.csrf_token }}
+            {{ form_field(wifiform.ssid) }}
+            {{ form_field(wifiform.pwd) }}
+            {{ form_field(wifiform.static_ip) }}
+            {{ form_field(wifiform.mask) }}
+            {{ form_field(wifiform.gateway) }}
+            {{ wifiform.publish }}
+        </form>
+
+
+        <h2>LAN 信息设置</h2>
+        <form method="post">
+            {{ lanform.csrf_token }}
+            {{ form_field(lanform.static_ip) }}
+            {{ form_field(lanform.mask) }}
+            {{ form_field(lanform.gateway) }}
+            {{ lanform.publish }}
+        </form>
+        <!--
+        <h2>网络设备列表</h2>
+        <pre>
+        <table width="621" border="1" cellspacing="0" >
+            {% for eachrow in usb_info_list %}
+            <tr><td> {{eachrow}} </td></tr>
+            {% endfor %}
+        </table>
+        </pre>
+        -->
+
+</ul>
+{% endblock %}
+
